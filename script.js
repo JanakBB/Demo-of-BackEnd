@@ -23,7 +23,7 @@ let userSchema = {
     password: String,
     age: Number, 
     address: String,
-    matchPassword: function(password) {//yo vaneko userSchema maa method create gare jastai ho ni sir?
+    matchPassword: function(password) {//yo vaneko userSchema maa method create gare jastai ho ni sir?//userSchema.method.matchPassword
         let password2 = "janak2";
         return password2 == password;
     }
